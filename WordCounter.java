@@ -6,8 +6,8 @@ public class WordCounter {
 
         public static void main(String[] args) {
 
-    //このプログラムは入力された文章の単語数を数えます
-    //このぷろがむはにゅうろくされたぶんしょのたんごすをかぞえます。
+    //このプログラムは入力された文章の文字を数えます
+    //このぷろがむはにゅうろくされたぶんしょのもじすをかぞえます。
     // This program counts the number of letters on the phrase.
     //Este programa conta o número de palavras da frase inserida.
 
