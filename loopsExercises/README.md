@@ -20,4 +20,4 @@ This Java program prompts the user to input a starting number and sums it up to 
 # じっこう ほうほう
 1. Clone this repository:
    ```sh
-   git clone https://github.com/SeuUsuario/SeuRepositorio.git
+   git clone [https://github.com/EdogawaCoder/Studies-Repository-.-/tree/main/loopsExercises]
