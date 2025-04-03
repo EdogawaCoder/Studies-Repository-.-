@@ -1,0 +1,46 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class exerciosArray1 {
+
+
+    public static void main(String[] args) {
+
+
+    // To create an Arrays and receive values from the User and after invert It.
+
+        Scanner scanner = new Scanner(System.in);
+
+        int [] arrayEmpty = new int[3];
+
+
+        for( int n = 0; n < arrayEmpty.length; n++){
+
+        System.out.println("Insert a number to create the array: ");
+
+        int numberChosen1 = scanner.nextInt();
+
+        arrayEmpty[n] = numberChosen1;
+
+
+    }
+
+    System.out.println(Arrays.toString(arrayEmpty));
+
+    for(int i = 0; i < arrayEmpty.length/2; i++){
+        int temp = arrayEmpty[0];
+        arrayEmpty[i] = arrayEmpty[arrayEmpty.length - 1 - i];
+        arrayEmpty[arrayEmpty.length - 1 - i] = temp;
+
+
+
+    }
+
+    System.out.println(Arrays.toString(arrayEmpty));
+
+    }
+
+
+
+}
